@@ -2,6 +2,7 @@
 
 // Includes
 #include <stdio.h>
+#include <stdlib.h>
 
 char* decrypt(char* s, int k, int length)
 {

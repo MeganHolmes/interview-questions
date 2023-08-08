@@ -1,7 +1,7 @@
 // From https://www.hackerrank.com/challenges/caesar-cipher-1/problem
 
-#include "stdio.h"
-#include "stdlib.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 char caesarRotate(char input, int rotationFactor, char lower, char upper)
 {

@@ -1,4 +1,8 @@
 // Using: https://en.wikipedia.org/wiki/Cubic_Hermite_spline#Representations
+
+#include <stdio.h>
+#include <math.h>
+
 float cubic_interp(float desired_x, float x1, float x2, float val1, float val2)
 {
     float t = (desired_x - x1) / (x2 - x1);

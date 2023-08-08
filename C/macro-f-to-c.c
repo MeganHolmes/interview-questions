@@ -29,8 +29,8 @@ void main()
 
     printf("%f Fahrenheit is %f in celsius\n", test_val, result);
 
-    volatile uint8_t x = 2;
-    volatile uint8_t* x_ptr = &x;
+    uint8_t x = 2;
+    uint8_t* x_ptr = &x;
 
 
     uint16_t res = (uint16_t)*x_ptr * (uint16_t)*x_ptr;

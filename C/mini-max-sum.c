@@ -1,5 +1,7 @@
 // From: https://www.hackerrank.com/challenges/mini-max-sum/problem
 
+#include <stdlib.h>
+
 void miniMaxSum(int arr_count, int* arr) {
     int lowestIdx = 0;
     int highestIdx = 0;
